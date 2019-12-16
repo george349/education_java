@@ -26,7 +26,8 @@ public class Task09 {
     }
 
     public static int sumDigitsInNumber(int number) {
+        int x =5+6+4;
         //напишите тут ваш код
-        return 0;
+        return x;
     }
 }

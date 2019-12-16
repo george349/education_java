@@ -27,8 +27,9 @@ public class Task08 {
     }
 
     public static int getMetreFromCentimetre(int centimetre) {
+        int x= centimetre/100;
         //напишите тут ваш код
 
-        return 0;
+        return x ;
     }
 }
