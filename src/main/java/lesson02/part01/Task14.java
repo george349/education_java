@@ -24,7 +24,7 @@ package lesson02.part01;
 public class Task14 {
     public static void main(String[] args) {
         //напишите тут ваш код
-
+        System.out.println("Red\nOrange\nYellow\nGreen\nBlue\nIndigo\nViolet");
     }
 
     public static class Red {

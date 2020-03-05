@@ -19,6 +19,6 @@ package lesson02.part01;
 public class Task13 {
     public static void main(String[] args) {
         //напишите тут ваш код
-
+        System.out.println("10\n20\n30\n40\n50\n60\n70\n80\n90\n100");
     }
 }
