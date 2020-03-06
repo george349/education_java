@@ -15,13 +15,14 @@ package lesson02.part01;
 
 public class Task11 {
     //напишите тут ваш код
-public static int convertToSeconds(){
-    int hour = 2;
+public static int convertToSeconds(int hour){
+    //int hour = 4;
     int s = hour *3600;
     return s;
 }
     public static void main(String[] args) {
         //напишите тут ваш код
-        System.out.println(convertToSeconds());
+        System.out.println(convertToSeconds(2));
+        System.out.println(convertToSeconds(4));
     }
 }
