@@ -19,7 +19,7 @@ public class Task02 {
         apple.addPrice(50);
         Apple apple2 = new Apple();
         apple2.addPrice(100);
-        System.out.println("Стоимость яблок " + Apple.applesPrice);
+        System.out.println("Стоимость яблок " + apple.applesPrice);
     }
 
     public static class Apple {
@@ -27,7 +27,7 @@ public class Task02 {
 
         public static void addPrice(int applesPrice) {
             //напишите тут ваш код
-
+            Apple.applesPrice += applesPrice;
         }
     }
 }
